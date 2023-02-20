@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/detail.css' %}">
+    <title>Task detail</title>
+</head>
+<body>
+<h1>Details</h1>
+<div class="container">
+<button> <a href="{% url 'task' %}">Go-back</a> </button>
+<h1> Task: {{task}} </h1>
+    <h2>Description:{{task.description}}</h2>
+    <h2>Completed:{{task.completed}}</h2>
+
+
+</div>
+</body>
+</html>

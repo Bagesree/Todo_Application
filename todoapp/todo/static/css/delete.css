@@ -1,0 +1,15 @@
+body{
+background-color:yellow;}
+.container{
+background-color:white;
+max-width:430px;
+width:100%;
+margin-left:370px;
+margin-top:70px;
+padding-bottom:20px;
+padding-top:20px;
+padding-left:90px;
+padding-right:70px;
+box-shadow: 10px 5px 5px #888;
+font-size:20px;
+}
